@@ -22,7 +22,6 @@ const Book: React.FC<BookProps> = ({
   };
 
   return (
-    // <div className="flex py-5 px-3 border-x-2 border-y border-slate-900">
     <div
       className="flex flex-col py-5 px-3 hover:bg-slate-200 cursor-pointer"
       onClick={toggleDetails}
